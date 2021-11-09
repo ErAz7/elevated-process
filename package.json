@@ -1,0 +1,58 @@
+{
+  "name": "elevated-process",
+  "version": "1.0.0",
+  "description": "A small wrapper on node's native `child_process`. It can start an elevated child process (run as aminstrator) using `spawn`, `exec`, `fork`, `spawnSync` or `execSync` from a non-elevated process; offering stdin, stdout and stderr on the elevated process",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist/ && babel ./src --out-dir dist/ --copy-files",
+    "start": "npm run build && node dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "keywords": [
+    "elevate",
+    "windows",
+    "spawn",
+    "fork",
+    "exec",
+    "execSync",
+    "spawnSync",
+    "stdin",
+    "stdout",
+    "stderr",
+    "stdio"
+  ],
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true
+          }
+        }
+      ]
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErAz7/elevated-process.git"
+  },
+    "bugs": {
+    "url": "https://github.com/ErAz7/elevated-process/issues"
+  },
+  "homepage": "https://github.com/ErAz7/elevated-process#readme",
+  "author": "ErAz7",
+  "license": "MIT"
+}
