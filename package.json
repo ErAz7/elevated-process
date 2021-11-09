@@ -1,6 +1,6 @@
 {
   "name": "elevated-process",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small wrapper on node's native `child_process`. It can start an elevated child process (run as aminstrator) using `spawn`, `exec`, `fork`, `spawnSync` or `execSync` from a non-elevated process; offering stdin, stdout and stderr on the elevated process",
   "main": "index.js",
   "scripts": {
