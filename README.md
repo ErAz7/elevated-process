@@ -28,7 +28,7 @@ This package uses the exact same API as [node.js native `child_process` API][chi
 This package uses gsudo internally to elevate commands on windows
 
 
-[npm-shield]: https://img.shields.io/badge/npm-v1.0.2-green
+[npm-shield]: https://img.shields.io/badge/npm-v1.0.3-green
 [npm]: https://www.npmjs.com/package/elevated-process
 [child_process_docs]: https://nodejs.org/api/child_process.html
 [gsudo]: https://github.com/gerardog/gsudo
