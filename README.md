@@ -21,15 +21,16 @@ yarn add elevated-process
  &nbsp;&nbsp;&nbsp;✔ | &nbsp;&nbsp;&nbsp;&nbsp;❌ | &nbsp;❌ |
 
 ## Usage
-This package uses the exact same API as node.js native `child_process`, supporting `spawn`, `exec`, `fork`, `spawnSync` and `execSync`
+This package uses the exact same API as [node.js native `child_process` API][child_process_docs], supporting `spawn`, `exec`, `fork`, `spawnSync` and `execSync`
 
 
 ## [gsudo][gsudo] 
 This package uses gsudo internally to elevate commands on windows
 
 
-[npm-shield]: https://img.shields.io/badge/npm-v1.0.1-green
+[npm-shield]: https://img.shields.io/badge/npm-v1.0.2-green
 [npm]: https://www.npmjs.com/package/elevated-process
+[child_process_docs]: https://nodejs.org/api/child_process.html
 [gsudo]: https://github.com/gerardog/gsudo
 [windows]: https://user-images.githubusercontent.com/46329768/141021000-3fe223be-f648-4aaf-8a2a-3a5d84f95d50.png
 [macos]: https://user-images.githubusercontent.com/46329768/141021007-c2075401-e0e0-4451-8668-77da557bbe9b.png
